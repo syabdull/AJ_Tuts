@@ -1,9 +1,9 @@
-function fun(a, b, c) {
-  console.log(a);
-  console.log(b);
-  c();
+function fun(a, b) {
+  console.log(a * b);
+  console.log(a + b);
 }
 
-fun("Abdulla", "javeed", () => {
-  console.log("hello coders");
-});
+let arr = [1, 2, 3];
+for (let i = 0; i < arr.length; i++) {
+  fun(arr[i], i);
+}
