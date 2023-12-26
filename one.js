@@ -1,7 +1,9 @@
-function fun(b) {
-  b();
+function fun(a, b, c) {
+  console.log(a);
+  console.log(b);
+  c();
 }
 
-fun(() => {
-  console.log("Abdulla");
+fun("Abdulla", "javeed", () => {
+  console.log("hello coders");
 });
