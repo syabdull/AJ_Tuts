@@ -1,7 +1,7 @@
-function fun() {
-  function hello() {
-    return "Animal";
-  }
-  console.log(hello());
+function fun(b) {
+  b();
 }
-fun();
+
+fun(() => {
+  console.log("Abdulla");
+});
