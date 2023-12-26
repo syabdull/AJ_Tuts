@@ -1,9 +1,8 @@
-function fun(a, b) {
-  console.log(a * b);
-  console.log(a + b);
-}
-
-let arr = [1, 2, 3];
-for (let i = 0; i < arr.length; i++) {
-  fun(arr[i], i);
-}
+let ans = function fun(a, b) {
+  let arr = [];
+  arr[0] = a;
+  arr[1] = b;
+  return arr;
+};
+let abs = ans("abdulla", "javeed");
+console.log(abs);
